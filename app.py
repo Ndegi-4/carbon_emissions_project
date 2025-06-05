@@ -33,7 +33,7 @@ user_input_scaled = scaler.transform(user_input_df)
 
 # Sidebar Footer
 st.sidebar.markdown("---")
-st.sidebar.info("Developed by Victoria Ndegi | KPSK-DeKUT-2-13")
+st.sidebar.info("Developed by Victoria Ndegi")
 
 # --- Predict Button ---
 if st.sidebar.button('Predict CO2 Emissions'):
